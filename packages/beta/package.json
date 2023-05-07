@@ -8,5 +8,5 @@
     "test": "mocha test/*.test.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
