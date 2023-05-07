@@ -1,4 +1,4 @@
-# workspace.js
+# workspace-js
 
 Adventures in npm workspaces and monorepos
 
