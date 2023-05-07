@@ -7,6 +7,6 @@
   "scripts": {
     "test": "mocha test/*.test.js"
   },
-  "author": "",
+  "author": "Mitch Allen (https://mitchallen.com)",
   "license": "MIT"
 }
