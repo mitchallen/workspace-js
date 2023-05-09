@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var assert = require('assert');
 
@@ -6,13 +6,11 @@ const beta = require('..');
 
 describe('beta', function () {
   context('smoke test', function () {
-    it('add should add two numbers together', function (done) {
-      assert.strictEqual(beta.add(100,200),300);
-      done();
-    });
-    it('subtract should subtract one number from another', function (done) {
-      assert.strictEqual(beta.subtract(100,200),-100);
+    it('should add first two numbers and subtract the third', function (done) {
+      const a = 100, b = 200, c = 50;
+      const expected = a + b - c;
+      assert.strictEqual(beta( a, b, c ), expected );
       done();
     });
   });
-});
+})

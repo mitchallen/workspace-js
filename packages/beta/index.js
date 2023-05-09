@@ -1,6 +1,10 @@
 "use strict";
 
-module.exports = {
-  add: (a,b) => a + b,
-  subtract: (a,b) => a - b
-}; 
+var alpha = require('@mitchallen/alpha');
+
+module.exports = beta;
+
+function beta(a,b,c) {
+    // return a + b - c
+    return alpha.subtract(alpha.add(a,b),c);
+} 
